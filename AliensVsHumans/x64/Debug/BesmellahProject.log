@@ -1,0 +1,237 @@
+﻿  AlienArmy.cpp
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,22): error C2143: syntax error: missing ';' before '<'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(20,2): message : see reference to class template instantiation 'Node<T>' being compiled
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,27): error C2039: 'getbackptr': is not a member of '`global namespace''
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienArmy.cpp(14,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienArmy.cpp(99,12): error C2440: 'return': cannot convert from 'LinkedQueue<AlienSoldier *>' to 'LinkedQueue<AlienSoldier *> *'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienArmy.cpp(99,12): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienArmy.cpp(129,1): error C2059: syntax error: '}'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienArmy.cpp(127,25): error C2059: syntax error: ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienArmy.cpp(129,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienArmy.cpp(130,25): error C2143: syntax error: missing ';' before '{'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienArmy.cpp(130,25): error C2447: '{': missing function header (old-style formal list?)
+  AlienDrone.cpp
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,22): error C2143: syntax error: missing ';' before '<'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(20,2): message : see reference to class template instantiation 'Node<T>' being compiled
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,27): error C2039: 'getbackptr': is not a member of '`global namespace''
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,36): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,25): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(20,36): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(20,25): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienDrone.cpp(20,28): error C2040: 'tank': 'ArrayStack<EarthTank *>' differs in levels of indirection from 'EarthTank *'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienDrone.cpp(21,31): error C2440: 'initializing': cannot convert from 'P_Queue<EarthGunnery *> *' to 'P_Queue<EarthGunnery *>'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienDrone.cpp(21,31): message : 'P_Queue<EarthGunnery *>::P_Queue': no overloaded function could convert all the argument types
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\P_Queue.h(12,2): message : could be 'P_Queue<EarthGunnery *>::P_Queue(const P_Queue<EarthGunnery *> &)'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienDrone.cpp(21,31): message : 'P_Queue<EarthGunnery *>::P_Queue(const P_Queue<EarthGunnery *> &)': cannot convert argument 1 from 'P_Queue<EarthGunnery *> *' to 'const P_Queue<EarthGunnery *> &'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienDrone.cpp(21,65): message : Reason: cannot convert from 'P_Queue<EarthGunnery *> *' to 'const P_Queue<EarthGunnery *>'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienDrone.cpp(21,65): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienDrone.cpp(21,31): message : while trying to match the argument list '(P_Queue<EarthGunnery *> *)'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienDrone.cpp(55,36): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienDrone.cpp(61,28): error C2660: 'P_Queue<EarthGunnery *>::enqueue': function does not take 1 arguments
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\P_Queue.h(15,7): message : see declaration of 'P_Queue<EarthGunnery *>::enqueue'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienDrone.cpp(61,28): message : while trying to match the argument list '(EarthGunnery *)'
+  AlienMonster.cpp
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,36): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,25): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(20,36): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(20,25): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,22): error C2143: syntax error: missing ';' before '<'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(20,2): message : see reference to class template instantiation 'Node<T>' being compiled
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,27): error C2039: 'getbackptr': is not a member of '`global namespace''
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienMonster.cpp(29,22): error C2660: 'Eartharmy::pickupTank': function does not take 0 arguments
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Eartharmy.h(32,10): message : see declaration of 'Eartharmy::pickupTank'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienMonster.cpp(29,22): message : while trying to match the argument list '()'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienMonster.cpp(29,49): error C2660: 'Eartharmy::pickupearthsolider': function does not take 0 arguments
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Eartharmy.h(29,10): message : see declaration of 'Eartharmy::pickupearthsolider'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienMonster.cpp(29,49): message : while trying to match the argument list '()'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienMonster.cpp(72,55): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  AlienSoldier.cpp
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,22): error C2143: syntax error: missing ';' before '<'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(20,2): message : see reference to class template instantiation 'Node<T>' being compiled
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,27): error C2039: 'getbackptr': is not a member of '`global namespace''
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,11): error C2143: syntax error: missing ';' before '*'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,51): error C2238: unexpected token(s) preceding ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(21,14): error C2143: syntax error: missing ';' before '*'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(21,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(21,23): error C2238: unexpected token(s) preceding ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\AlienSoldier.cpp(23,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  doubleQueue.cpp
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,22): error C2143: syntax error: missing ';' before '<'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(20,2): message : see reference to class template instantiation 'Node<T>' being compiled
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,27): error C2039: 'getbackptr': is not a member of '`global namespace''
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,27): error C2039: 'getbackptr': is not a member of 'LinkedQueue<AlienDrone *>'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\doubleQueue.h(4,28): message : see declaration of 'LinkedQueue<AlienDrone *>'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\doubleQueue.cpp(3,38): message : see reference to class template instantiation 'Node<T>' being compiled
+          with
+          [
+              T=AlienDrone *
+          ]
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\doubleQueue.cpp(72,1): error C2059: syntax error: '}'
+  Eartharmy.cpp
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,22): error C2143: syntax error: missing ';' before '<'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(20,2): message : see reference to class template instantiation 'Node<T>' being compiled
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,27): error C2039: 'getbackptr': is not a member of '`global namespace''
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,11): error C2143: syntax error: missing ';' before '*'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,51): error C2238: unexpected token(s) preceding ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(21,14): error C2143: syntax error: missing ';' before '*'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(21,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(21,23): error C2238: unexpected token(s) preceding ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Eartharmy.cpp(7,1): error C2530: 'Eartharmy::ES_list': references must be initialized
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Eartharmy.cpp(7,1): error C2530: 'Eartharmy::ET_list': references must be initialized
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Eartharmy.cpp(7,1): error C2530: 'Eartharmy::EG_list': references must be initialized
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Eartharmy.cpp(7,1): error C2530: 'Eartharmy::EH_list': references must be initialized
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Eartharmy.cpp(51,1): error C2556: 'P_Queue<EarthGunnery *> &Eartharmy::getEGList(void)': overloaded function differs only by return type from 'P_Queue<EarthGunnery *> *Eartharmy::getEGList(void)'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Eartharmy.h(35,30): message : see declaration of 'Eartharmy::getEGList'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Eartharmy.cpp(50,36): error C2372: 'Eartharmy::getEGList': redefinition; different types of indirection
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Eartharmy.h(35,30): message : see declaration of 'Eartharmy::getEGList'
+  EarthGunnery.cpp
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,22): error C2143: syntax error: missing ';' before '<'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(20,2): message : see reference to class template instantiation 'Node<T>' being compiled
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,27): error C2039: 'getbackptr': is not a member of '`global namespace''
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,36): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,25): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(20,36): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(20,25): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthGunnery.cpp(44,29): error C2440: 'initializing': cannot convert from 'AlienDrone *' to 'AlienDrone *&'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthGunnery.cpp(53,33): error C2440: 'initializing': cannot convert from 'AlienDrone *' to 'AlienDrone *&'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthGunnery.cpp(54,32): error C2440: 'initializing': cannot convert from 'AlienDrone *' to 'AlienDrone *&'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthGunnery.cpp(79,29): error C2440: 'initializing': cannot convert from 'AlienDrone *' to 'AlienDrone *&'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthGunnery.cpp(98,33): error C2440: 'initializing': cannot convert from 'AlienDrone *' to 'AlienDrone *&'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthGunnery.cpp(99,32): error C2440: 'initializing': cannot convert from 'AlienDrone *' to 'AlienDrone *&'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthGunnery.cpp(129,29): error C2440: 'initializing': cannot convert from 'AlienDrone *' to 'AlienDrone *&'
+  EarthHeal.cpp
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,22): error C2143: syntax error: missing ';' before '<'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(20,2): message : see reference to class template instantiation 'Node<T>' being compiled
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,27): error C2039: 'getbackptr': is not a member of '`global namespace''
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,36): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,25): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(20,36): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(20,25): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthHeal.cpp(48,53): error C2039: 'getUML_t_time': is not a member of 'EarthTank'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(15,7): message : see declaration of 'EarthTank'
+  EarthSoldier.cpp
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,22): error C2143: syntax error: missing ';' before '<'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(20,2): message : see reference to class template instantiation 'Node<T>' being compiled
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,27): error C2039: 'getbackptr': is not a member of '`global namespace''
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,36): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,25): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(20,36): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(20,25): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthSoldier.cpp(33,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  EarthTank.cpp
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,11): error C2143: syntax error: missing ';' before '*'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,51): error C2238: unexpected token(s) preceding ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(21,14): error C2143: syntax error: missing ';' before '*'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(21,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(21,23): error C2238: unexpected token(s) preceding ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,22): error C2143: syntax error: missing ';' before '<'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(20,2): message : see reference to class template instantiation 'Node<T>' being compiled
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,27): error C2039: 'getbackptr': is not a member of '`global namespace''
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.cpp(105,55): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.cpp(112,9): error C2065: 'eartharmy': undeclared identifier
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.cpp(117,9): error C2065: 'eartharmy': undeclared identifier
+  Game.cpp
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,22): error C2143: syntax error: missing ';' before '<'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(20,2): message : see reference to class template instantiation 'Node<T>' being compiled
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,27): error C2039: 'getbackptr': is not a member of '`global namespace''
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,36): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,25): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(20,36): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(20,25): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Game.cpp(82,3): error C3861: 'alienattacking': identifier not found
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Game.cpp(112,11): error C2039: 'setUML_t_time': is not a member of 'EarthTank'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(15,7): message : see declaration of 'EarthTank'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Game.cpp(229,69): error C2819: type 'doubleQueue' does not have an overloaded member 'operator ->'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\doubleQueue.h(4,7): message : see declaration of 'doubleQueue'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Game.cpp(229,69): message : did you intend to use '.' instead?
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Game.cpp(229,71): error C2232: '->LinkedQueue<AlienDrone *>::getSize': left operand has 'class' type, use '.'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Game.cpp(232,128): error C2819: type 'doubleQueue' does not have an overloaded member 'operator ->'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\doubleQueue.h(4,7): message : see declaration of 'doubleQueue'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Game.cpp(232,128): message : did you intend to use '.' instead?
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Game.cpp(232,130): error C2232: '->LinkedQueue<AlienDrone *>::getSize': left operand has 'class' type, use '.'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Game.cpp(233,153): error C2819: type 'doubleQueue' does not have an overloaded member 'operator ->'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\doubleQueue.h(4,7): message : see declaration of 'doubleQueue'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Game.cpp(233,153): message : did you intend to use '.' instead?
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Game.cpp(233,155): error C2232: '->LinkedQueue<AlienDrone *>::getSize': left operand has 'class' type, use '.'
+  KilledList.cpp
+  main.cpp
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,22): error C2143: syntax error: missing ';' before '<'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(20,2): message : see reference to class template instantiation 'Node<T>' being compiled
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,27): error C2039: 'getbackptr': is not a member of '`global namespace''
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,36): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,25): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(20,36): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(20,25): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+  RandomGen.cpp
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,22): error C2143: syntax error: missing ';' before '<'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(20,2): message : see reference to class template instantiation 'Node<T>' being compiled
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,27): error C2039: 'getbackptr': is not a member of '`global namespace''
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,36): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,25): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(20,36): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(20,25): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\RandomGen.cpp(18,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\RandomGen.cpp(38,2): error C2065: 'HealthPercentage': undeclared identifier
+  StackADT.h
+  Units.cpp
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,22): error C2143: syntax error: missing ';' before '<'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(20,2): message : see reference to class template instantiation 'Node<T>' being compiled
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,27): error C2039: 'getbackptr': is not a member of '`global namespace''
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\Node.h(18,39): error C2238: unexpected token(s) preceding ';'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,36): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(19,25): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(20,36): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(20,25): error C2027: use of undefined type 'Game'
+C:\Users\Abdelrahman\OneDrive\Desktop\FinalBesmellahProjectV2\BesmellahProject\EarthTank.h(8,7): message : see declaration of 'Game'
+  Generating Code...
